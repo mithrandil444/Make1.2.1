@@ -6,7 +6,7 @@ Info about our project comes here
 # IMPORTS
 
 
-__author__ = "Sven De "
+__author__ = "Sven De Visscher"
 __email__ = "sven.devisscher@student.kdg.be"
 __status__ = "Development"
 
