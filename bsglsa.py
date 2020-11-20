@@ -15,6 +15,7 @@ __status__ = "Development"
 
 
 def main():
+    pass
 
 
 if __name__ == '__main__':  # code to execute if called from command-line
