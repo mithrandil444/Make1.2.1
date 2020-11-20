@@ -6,7 +6,7 @@ Info about our project comes here
 # IMPORTS
 
 
-__author__ = "Sven De Visscher "
+__author__ = "Sven De Visscher"
 __email__ = "sven.devisscher@student.kdg.be"
 __status__ = "Development"
 
@@ -15,8 +15,7 @@ __status__ = "Development"
 
 
 def main():
-
-sudo apt update && apt upgrade -y
+    pass
 
 
 if __name__ == '__main__':  # code to execute if called from command-line
