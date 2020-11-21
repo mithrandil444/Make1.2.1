@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Info about our project comes here
+Dit is een scriptje dat automatisch je rpi updates doet.
 """
 
 # IMPORTS
