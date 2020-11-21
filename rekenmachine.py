@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 """
 Met dit rekenmachine kan je optellen,aftrekken,vermenigvuldigen en delen door 2 getallen te kiezen
-bron 1: https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
-bron 2 : https://www.programiz.com/python-programming/examples/calculator
+bron : https://www.youtube.com/watch?v=HOqTyB9GzHA
 """
 
 
@@ -11,33 +10,49 @@ __email__ = "sven.devisscher@student.kdg.be"
 __status__ = "Development"
 
 
-# Variabelen die je definieert
-Getal_1 = int(input("Pick a number: "))        # Input, kies je eerste getal
-Getal_2 = int(input("Pick another number: "))  # Input, kies je 2de getal
+# Deze functie telt 2 getallen op
+def optellen(x, y):
+    return x + y
 
-what = input('''What would you like to do?     # wat wil je doen?
-optellen for addition
-aftrekken for subtraction
-vermenigvuldigen for multiplication
-delen for division
-''')
+# Deze functie trekt 2 getallen van elkaar af
+def aftrekken(x, y):
+    return x - y
 
+# Deze functie vermenigvuldigt 2 getallen
+def vermenigvuldigen(x, y):
+    return x * y
 
-def main():
-    if what == "optellen":
-        print(Getal_1 + Getal_2)
+# Deze functie deelt 2 getallen door elkaar
+def delen(x, y):
+    return x / y
 
-    elif what == 'aftrekken':
-        print(Getal_1 - Getal_2)
+print("Select operation.")
+print("1.Optellen")
+print("2.Aftrekken")
+print("3.Vermenigvuldigen")
+print("4.Delen")
 
-    elif what == 'vermenigvuldigen':
-        print(Getal_1 * Getal_2)
+while True:
+    # Vraagt input aan de gebruiker
+    keuze = input("Enter choice(1/2/3/4): ")
 
-    elif what == 'delen':
-        print(Getal_1 / Getal_2)
+    # Bekijkt of de keuze één van de 4 opties is
+    if keuze in ('1', '2', '3', '4'):
+        num1 = float(input("Typ het eerste getal: "))
+        num2 = float(input("Typ het 2de getal: "))
 
+        if keuze == '1':
+            print(num1, "+", num2, "=", optellen(num1, num2))
 
+        elif keuze == '2':
+            print(num1, "-", num2, "=", aftrekken(num1, num2))
 
+        elif keuze == '3':
+            print(num1, "*", num2, "=", vermenigvuldigen(num1, num2))
 
-if __name__ == '__main__':  # code to execute if called from command-line
-    main()
+        elif keuze == '4':
+            print(num1, "/", num2, "=", delen(num1, num2))
+        break
+    else:
+        print("Ongeldige input")
+
