@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """
 This python script will tell you how many characters there are in your word
+bron : https://www.programiz.com/python-programming/methods/built-in/len
 """
 
 
