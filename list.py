@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This is a python script that sums up a list that is given
+This is a python script that sums up a list that is given,
 this will let you add some words into the existing list en show it to you
 bron 1: https://www.programiz.com/python-programming/methods/built-in/list
 bron 2 : https://stackoverflow.com/questions/11574195/how-to-merge-multiple-lists-into-one-list-in-python

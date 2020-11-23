@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This scripts will ask you in which year you were born en calculate how old you are
+This script will ask you in which year you were born en calculate how old you are
 and in which year you will be 50 years old.
 Bron : https://www.youtube.com/watch?v=7lg5BHLrw4E
 """

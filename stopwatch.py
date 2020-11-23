@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-This is a python script for a stopwatch.
+This is a python script for a stopwatch. It will count the time that has been passed.
 bron : https://www.includehelp.com/python/create-a-stopwatch-using-python.aspx
 """
 
